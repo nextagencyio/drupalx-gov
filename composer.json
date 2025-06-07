@@ -1,7 +1,7 @@
 {
     "name": "nextagencyio/drupalx-gov",
     "description": "Government installation profile for DrupalX",
-    "type": "drupal-profile",
+    "type": "drupal-recipe",
     "license": "GPL-2.0-or-later",
     "authors": [
         {
