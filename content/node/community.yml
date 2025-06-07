@@ -8,6 +8,7 @@ _meta:
     public-services-medi-4f0f-9c6e-164a416d574c: media
     city-hall-medi-4f0f-9c6e-164a416d574c: media
     community-medi-4f0f-9c6e-164a416d574c: media
+    community-park-medi-4f0f-9c6e-164a416d574c: media
 default:
   revision_uid:
     - target_id: 1
@@ -95,7 +96,7 @@ default:
                   version: '1.0'
                   entity_type: paragraph
                   uuid: comm-stat-001-4001-a001-000000000001
-                  bundle: stats_item
+                  bundle: bullet
                   default_langcode: en
                 default:
                   status:
@@ -107,18 +108,16 @@ default:
                   revision_translation_affected:
                     - value: true
                   field_icon:
-                    - value: box
+                    - value: building
                   field_summary:
-                    - value: 'Community centers offering programs for youth, adults, and seniors throughout the city.'
-                      format: ''
-                  field_title:
-                    - value: '12 Centers'
+                    - value: '<strong>12 Centers</strong> - Community centers offering programs for youth, adults, and seniors throughout the city.'
+                      format: basic_html
             - entity:
                 _meta:
                   version: '1.0'
                   entity_type: paragraph
                   uuid: comm-stat-002-4001-a001-000000000002
-                  bundle: stats_item
+                  bundle: bullet
                   default_langcode: en
                 default:
                   status:
@@ -130,18 +129,16 @@ default:
                   revision_translation_affected:
                     - value: true
                   field_icon:
-                    - value: box
+                    - value: heart
                   field_summary:
-                    - value: 'Annual volunteer hours contributed by our dedicated community members.'
-                      format: ''
-                  field_title:
-                    - value: '50,000+ Hours'
+                    - value: '<strong>50,000+ Hours</strong> - Annual volunteer hours contributed by our dedicated community members.'
+                      format: basic_html
             - entity:
                 _meta:
                   version: '1.0'
                   entity_type: paragraph
                   uuid: comm-stat-003-4001-a001-000000000003
-                  bundle: stats_item
+                  bundle: bullet
                   default_langcode: en
                 default:
                   status:
@@ -153,12 +150,10 @@ default:
                   revision_translation_affected:
                     - value: true
                   field_icon:
-                    - value: box
+                    - value: users
                   field_summary:
-                    - value: 'Active community programs serving residents of all ages and backgrounds.'
-                      format: ''
-                  field_title:
-                    - value: '30+ Programs'
+                    - value: '<strong>30+ Programs</strong> - Active community programs serving residents of all ages and backgrounds.'
+                      format: basic_html
           field_link:
             - uri: 'internal:/community/programs'
               title: 'View all programs'
@@ -213,7 +208,7 @@ default:
                     - value: 'After-school activities, summer camps, educational workshops, and mentoring programs for children and teenagers.'
                       format: basic_html
                   field_media:
-                    - entity: police-department-medi-4f0f-9c6e-164a416d574c
+                    - entity: community-park-medi-4f0f-9c6e-164a416d574c
                   field_link:
                     - uri: 'internal:/community/youth'
                       title: 'Youth Programs'
@@ -240,7 +235,7 @@ default:
                     - value: 'Programs and resources for older adults including social activities, wellness classes, transportation assistance, and meal services.'
                       format: basic_html
                   field_media:
-                    - entity: public-library-medi-4f0f-9c6e-164a416d574c
+                    - entity: community-medi-4f0f-9c6e-164a416d574c
                   field_link:
                     - uri: 'internal:/community/senior'
                       title: 'Senior Services'

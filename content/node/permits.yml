@@ -112,7 +112,7 @@ default:
                     - value: 'Required for new construction, renovations, additions, and structural changes. Includes residential, commercial, and industrial projects.'
                       format: basic_html
                   field_media:
-                    - entity: public-library-medi-4f0f-9c6e-164a416d574c
+                    - entity: building-permits-medi-4f0f-9c6e-164a416d574c
                   field_link:
                     - uri: 'internal:/building-permits'
                       title: 'Apply for Building Permit'
@@ -171,9 +171,90 @@ default:
                     - uri: 'internal:/event-permits'
                       title: 'Event Permit Info'
                       options: {  }
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: perm-type-004-4001-a001-000000000004
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_title:
+                    - value: 'Zoning & Land Use'
+                  field_summary:
+                    - value: 'Apply for zoning variances, conditional use permits, and land use approvals for residential and commercial development projects.'
+                      format: basic_html
+                  field_media:
+                    - entity: building-permits-medi-4f0f-9c6e-164a416d574c
+                  field_link:
+                    - uri: 'internal:/zoning-permits'
+                      title: 'Zoning Applications'
+                      options: {  }
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: perm-type-005-4001-a001-000000000005
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_title:
+                    - value: 'Street & Sidewalk Use'
+                  field_summary:
+                    - value: 'Obtain permits for construction work, moving services, special deliveries, and temporary use of public right-of-way areas.'
+                      format: basic_html
+                  field_media:
+                    - entity: city-transportation-medi-4f0f-9c6e-164a416d574c
+                  field_link:
+                    - uri: 'internal:/street-permits'
+                      title: 'Street Use Permits'
+                      options: {  }
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: perm-type-006-4001-a001-000000000006
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {  }
+                  revision_translation_affected:
+                    - value: true
+                  field_title:
+                    - value: 'Environmental Permits'
+                  field_summary:
+                    - value: 'Required permits for waste disposal, air quality compliance, water discharge, and environmental impact assessments.'
+                      format: basic_html
+                  field_media:
+                    - entity: public-services-medi-4f0f-9c6e-164a416d574c
+                  field_link:
+                    - uri: 'internal:/environmental-permits'
+                      title: 'Environmental Permits'
+                      options: {  }
   field_meta_tags:
     - value: 'a:1:{s:5:"title";s:65:"Permits & Licenses | Building, Business & Regulatory Services";}'
   field_summary:
-    - value: 'Apply for building permits, business licenses, and special event permits in Riverside City. Streamlined processes and helpful staff support.'
+    - value: 'Apply for building permits, business licenses, special event permits, zoning approvals, street use permits, and environmental permits. Streamlined processes and helpful staff support.'
   field_thumbnail:
     - entity: building-permits-medi-4f0f-9c6e-164a416d574c

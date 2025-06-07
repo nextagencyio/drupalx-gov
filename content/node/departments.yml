@@ -70,7 +70,7 @@ default:
           field_media:
             - entity: community-medi-4f0f-9c6e-164a416d574c
           field_summary:
-            - value: 'Meet the dedicated departments and leadership team working together to provide excellent public services and responsive government for Riverside City.'
+            - value: 'Meet the dedicated departments and leadership team working together to provide excellent public services and responsive government for our city.'
               format: basic_html
     - entity:
         _meta:
@@ -172,7 +172,88 @@ default:
                     - uri: 'internal:/administration'
                       title: 'Administration'
                       options: {}
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: dept-fire-004-4001-a001-000000000004
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {}
+                  revision_translation_affected:
+                    - value: true
+                  field_title:
+                    - value: 'Fire & Emergency Services'
+                  field_summary:
+                    - value: 'Providing fire suppression, emergency medical services, rescue operations, and fire prevention education to protect our community.'
+                      format: basic_html
+                  field_media:
+                    - entity: police-department-medi-4f0f-9c6e-164a416d574c
+                  field_link:
+                    - uri: 'internal:/fire-department'
+                      title: 'Fire Department'
+                      options: {}
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: dept-parks-005-4001-a001-000000000005
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {}
+                  revision_translation_affected:
+                    - value: true
+                  field_title:
+                    - value: 'Parks & Recreation'
+                  field_summary:
+                    - value: 'Managing parks, recreational facilities, community programs, and special events that enhance quality of life for residents.'
+                      format: basic_html
+                  field_media:
+                    - entity: community-park-medi-4f0f-9c6e-164a416d574c
+                  field_link:
+                    - uri: 'internal:/parks-recreation'
+                      title: 'Parks & Recreation'
+                      options: {}
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: dept-planning-006-4001-a001-000000000006
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {}
+                  revision_translation_affected:
+                    - value: true
+                  field_title:
+                    - value: 'Planning & Development'
+                  field_summary:
+                    - value: 'Overseeing zoning, land use planning, building permits, code enforcement, and sustainable development initiatives.'
+                      format: basic_html
+                  field_media:
+                    - entity: building-permits-medi-4f0f-9c6e-164a416d574c
+                  field_link:
+                    - uri: 'internal:/planning-development'
+                      title: 'Planning & Development'
+                      options: {}
   field_summary:
-    - value: 'Learn about Riverside City departments including police, public works, administration, and their roles in serving our community.'
+    - value: 'Learn about our city departments including police, public works, fire & emergency services, parks & recreation, planning & development, and administration.'
   field_thumbnail:
     - entity: community-medi-4f0f-9c6e-164a416d574c

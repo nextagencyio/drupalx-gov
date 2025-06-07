@@ -6,6 +6,9 @@ _meta:
   default_langcode: en
   depends:
     public-services-medi-4f0f-9c6e-164a416d574c: media
+    building-permits-medi-4f0f-9c6e-164a416d574c: media
+    community-park-medi-4f0f-9c6e-164a416d574c: media
+    city-transportation-medi-4f0f-9c6e-164a416d574c: media
 default:
   revision_uid:
     - target_id: 1
@@ -136,7 +139,7 @@ default:
                     - value: 'Access water, electricity, waste management, and recycling services. Pay bills online, request new service, or report outages.'
                       format: basic_html
                   field_media:
-                    - entity: city-transportation-medi-4f0f-9c6e-164a416d574c
+                    - entity: public-services-medi-4f0f-9c6e-164a416d574c
                   field_link:
                     - uri: 'internal:/utilities'
                       title: 'Utility Services'
@@ -194,6 +197,87 @@ default:
                   field_link:
                     - uri: 'internal:/parks'
                       title: 'Parks & Recreation'
+                      options: {}
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: srv-plan-004-4001-a001-000000000004
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {}
+                  revision_translation_affected:
+                    - value: true
+                  field_title:
+                    - value: 'Planning & Zoning'
+                  field_summary:
+                    - value: 'Apply for zoning permits, submit development proposals, and access planning resources for residential and commercial projects.'
+                      format: basic_html
+                  field_media:
+                    - entity: building-permits-medi-4f0f-9c6e-164a416d574c
+                  field_link:
+                    - uri: 'internal:/planning'
+                      title: 'Planning Services'
+                      options: {}
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: srv-trans-005-4001-a001-000000000005
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {}
+                  revision_translation_affected:
+                    - value: true
+                  field_title:
+                    - value: 'Transportation'
+                  field_summary:
+                    - value: 'Access public transit information, parking permits, traffic reports, and transportation planning initiatives.'
+                      format: basic_html
+                  field_media:
+                    - entity: city-transportation-medi-4f0f-9c6e-164a416d574c
+                  field_link:
+                    - uri: 'internal:/transportation'
+                      title: 'Transportation Services'
+                      options: {}
+            - entity:
+                _meta:
+                  version: '1.0'
+                  entity_type: paragraph
+                  uuid: srv-econ-006-4001-a001-000000000006
+                  bundle: card
+                  default_langcode: en
+                default:
+                  status:
+                    - value: true
+                  created:
+                    - value: 1724541786
+                  behavior_settings:
+                    - value: {}
+                  revision_translation_affected:
+                    - value: true
+                  field_title:
+                    - value: 'Economic Development'
+                  field_summary:
+                    - value: 'Small business resources, workforce development programs, and economic incentives to support local economic growth.'
+                      format: basic_html
+                  field_media:
+                    - entity: public-services-medi-4f0f-9c6e-164a416d574c
+                  field_link:
+                    - uri: 'internal:/economic-development'
+                      title: 'Economic Development'
                       options: {}
     - entity:
         _meta:
@@ -279,6 +363,6 @@ default:
                   field_title:
                     - value: 'What payment methods are accepted for permits and fees?'
   field_summary:
-    - value: 'Access essential city government services including utilities, permits, licenses, parks and recreation, public transportation, and more.'
+    - value: 'Access essential city government services including utilities, permits & licenses, parks & recreation, planning & zoning, transportation, and economic development resources.'
   field_thumbnail:
     - entity: public-services-medi-4f0f-9c6e-164a416d574c

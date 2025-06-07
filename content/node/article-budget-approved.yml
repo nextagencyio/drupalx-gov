@@ -44,12 +44,21 @@ default:
   body:
     - value: |-
         <h2>Comprehensive Budget Addresses Community Priorities</h2>
-        <p>The city council has unanimously approved the annual budget for the upcoming fiscal year, allocating significant resources to infrastructure improvements, public safety, and community programs.</p>
-        <p>The $85 million budget includes substantial investments in road repairs, water system upgrades, and park improvements that will benefit all residents and enhance quality of life in our community.</p>
+        <p>The city council has unanimously approved the annual budget for the upcoming fiscal year, allocating significant resources to infrastructure improvements, public safety, and community programs based on resident priorities identified through extensive public engagement.</p>
+        <p>The $85 million budget represents a balanced approach to fiscal responsibility while maintaining essential services and investing in long-term community needs.</p>
         <h3>Key Budget Allocations</h3>
-        <p>Major allocations include $25 million for infrastructure projects, $20 million for public safety services, $15 million for community programs, and $12 million for environmental initiatives.</p>
-        <h3>Community Input Drives Decisions</h3>
-        <p>The budget reflects extensive community input gathered through public hearings, surveys, and neighborhood meetings held throughout the budget development process.</p>
+        <ul>
+        <li><strong>Infrastructure Projects:</strong> $25 million for road repairs, water system upgrades, and stormwater management improvements</li>
+        <li><strong>Public Safety Services:</strong> $20 million for police, fire, and emergency medical services</li>
+        <li><strong>Community Programs:</strong> $15 million for parks, recreation, senior services, and youth programs</li>
+        <li><strong>Environmental Initiatives:</strong> $12 million for sustainability projects and green infrastructure</li>
+        <li><strong>Economic Development:</strong> $8 million for small business support and workforce development</li>
+        <li><strong>Technology Upgrades:</strong> $5 million for digital infrastructure and cybersecurity improvements</li>
+        </ul>
+        <h3>Community-Driven Budget Process</h3>
+        <p>This budget reflects extensive community input gathered through public hearings, online surveys, neighborhood meetings, and focus groups held throughout the six-month budget development process. More than 2,500 residents participated in providing feedback on city priorities.</p>
+        <h3>Fiscal Responsibility and Transparency</h3>
+        <p>The budget maintains the city's strong financial position while providing essential services. The full budget document and quarterly financial reports are available on the city website to ensure transparency and accountability to taxpayers.</p>
       format: full_html
       summary: ''
   field_lead:

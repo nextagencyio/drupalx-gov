@@ -65,14 +65,14 @@ default:
           revision_translation_affected:
             - value: true
           field_heading:
-            - value: 'Serving Our Community with Excellence'
+            - value: 'Your City Government Working for You'
               format: restricted_html
           field_hero_layout:
             - value: image_top
           field_media:
             - entity: city-hall-medi-4f0f-9c6e-164a416d574c
           field_summary:
-            - value: 'Welcome to our official city website. Access services, permits, and information to help you navigate city resources efficiently.'
+            - value: 'Welcome to our official city website. Access government services, apply for permits, stay informed about city initiatives, and connect with your local government.'
               format: basic_html
     - entity:
         _meta:
@@ -91,7 +91,7 @@ default:
           revision_translation_affected:
             - value: true
           field_title:
-            - value: 'Quick Links'
+            - value: 'City Services'
           field_card:
             - entity:
                 _meta:
@@ -273,7 +273,7 @@ default:
                   revision_translation_affected:
                     - value: true
                   field_body:
-                    - value: '<p>City Hall is open Monday through Friday from 8:30 AM to 5:00 PM. Most departments also offer online services 24/7 through our website. Some departments offer extended hours on Thursday evenings until 7:00 PM.</p>'
+                    - value: '<p>City Hall is open Monday through Friday from 8:30 AM to 5:00 PM. Most departments also offer online services 24/7 through our website. Extended hours are available on Thursday evenings until 7:00 PM for permit applications and utility services. For emergencies, call 911.</p>'
                       format: full_html
                       summary: ''
                   field_title:
@@ -295,7 +295,7 @@ default:
                   revision_translation_affected:
                     - value: true
                   field_body:
-                    - value: '<p>You can report non-emergency issues like potholes, graffiti, street light outages, and other concerns through our online reporting system or by calling our 311 service line. For emergencies, always call 911.</p>'
+                    - value: '<p>You can report non-emergency issues like potholes, graffiti, street light outages, water leaks, and other concerns through our online reporting system, mobile app, or by calling our 311 service line. Include photos and specific location details to help us respond faster. For emergencies, always call 911.</p>'
                       format: full_html
                       summary: ''
                   field_title:
@@ -317,7 +317,7 @@ default:
                   revision_translation_affected:
                     - value: true
                   field_body:
-                    - value: '<p>City council meetings are held on the second and fourth Tuesday of each month at 7:00 PM in the City Hall Council Chambers. Meetings are open to the public and are also streamed live on our website. Meeting agendas are published one week in advance.</p>'
+                    - value: '<p>City council meetings are held on the second and fourth Tuesday of each month at 7:00 PM in the City Hall Council Chambers. Meetings are open to the public and are also streamed live on our website and cable channel 12. Meeting agendas are published one week in advance, and citizens may sign up for public comment during each meeting.</p>'
                       format: full_html
                       summary: ''
                   field_title:
